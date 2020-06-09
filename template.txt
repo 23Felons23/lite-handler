@@ -1,0 +1,20 @@
+//Template for new commands
+module.exports.run = (client, message, args) => {
+
+}
+
+module.exports.config = {
+    aliases: [],
+    guildOnly: true,
+    clientPermissions: [],
+    userPermissions: []
+}
+
+
+
+//Template for new events
+
+//You can add the parameters of the event after the client parameter
+module.exports = (client) => {
+
+}
